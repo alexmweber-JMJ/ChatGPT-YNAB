@@ -1,7 +1,8 @@
 {
   "name": "ynab-chatgpt",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Connect Codex and ChatGPT workflows to the official YNAB API.",
+  "requires_local_executor": true,
   "author": {
     "name": "Alex Weber",
     "url": "https://github.com/alexmweber-JMJ"

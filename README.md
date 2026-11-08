@@ -37,6 +37,8 @@ export YNAB_ACCESS_TOKEN='your-token'
 
 After configuring the token, fully restart Codex and start a new task. Never commit or paste the token into this repository.
 
+The bundled stdio MCP server declares `YNAB_ACCESS_TOKEN` through `env_vars`, so Codex passes the value from its launch environment without storing the secret in the plugin.
+
 ## Example prompts
 
 - Summarize my current YNAB budget.
@@ -75,4 +77,3 @@ The MCP server uses only Node.js built-ins and the global `fetch` API; there are
 ## License
 
 MIT
-
