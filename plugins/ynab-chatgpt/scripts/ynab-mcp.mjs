@@ -3,7 +3,7 @@
 import readline from "node:readline";
 
 const API_ROOT = "https://api.ynab.com/v1";
-const SERVER_VERSION = "1.0.3";
+const SERVER_VERSION = "1.0.4";
 
 function string(description) {
   return { type: "string", ...(description ? { description } : {}) };
