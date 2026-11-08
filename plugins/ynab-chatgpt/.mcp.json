@@ -1,8 +1,10 @@
 {
   "mcpServers": {
     "ynab": {
+      "type": "stdio",
       "command": "node",
       "args": ["${PLUGIN_ROOT}/scripts/ynab-mcp.mjs"],
+      "cwd": "${PLUGIN_ROOT}",
       "env_vars": ["YNAB_ACCESS_TOKEN"]
     }
   }

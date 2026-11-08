@@ -37,7 +37,7 @@ export YNAB_ACCESS_TOKEN='your-token'
 
 After configuring the token, fully restart Codex and start a new task. Never commit or paste the token into this repository.
 
-The bundled stdio MCP server declares `YNAB_ACCESS_TOKEN` through `env_vars`, so Codex passes the value from its launch environment without storing the secret in the plugin.
+The bundled MCP server explicitly uses the `stdio` transport and declares `YNAB_ACCESS_TOKEN` through `env_vars`, so Codex passes the value from its launch environment without storing the secret in the plugin.
 
 ## Example prompts
 
