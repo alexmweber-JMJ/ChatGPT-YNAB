@@ -3,7 +3,7 @@
     "ynab": {
       "type": "stdio",
       "command": "node",
-      "args": ["./scripts/ynab-mcp.mjs"],
+      "args": ["./scripts/launch-ynab-mcp.mjs"],
       "cwd": ".",
       "env_vars": ["YNAB_ACCESS_TOKEN"]
     }
