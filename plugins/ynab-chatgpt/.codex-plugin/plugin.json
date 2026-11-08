@@ -1,6 +1,6 @@
 {
   "name": "ynab-chatgpt",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Connect Codex and ChatGPT workflows to the official YNAB API.",
   "requires_local_executor": true,
   "author": {
