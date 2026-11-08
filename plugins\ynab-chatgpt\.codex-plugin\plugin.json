@@ -1,0 +1,29 @@
+{
+  "name": "ynab-chatgpt",
+  "version": "1.0.0",
+  "description": "Connect Codex and ChatGPT workflows to the official YNAB API.",
+  "author": {
+    "name": "Alex Weber",
+    "url": "https://github.com/alexmweber-JMJ"
+  },
+  "homepage": "https://github.com/alexmweber-JMJ/ChatGPT-YNAB",
+  "repository": "https://github.com/alexmweber-JMJ/ChatGPT-YNAB",
+  "license": "MIT",
+  "keywords": ["ynab", "budgeting", "personal-finance", "mcp"],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "YNAB for ChatGPT",
+    "shortDescription": "Review and update your YNAB budget.",
+    "longDescription": "Connects ChatGPT and Codex to YNAB to inspect budgets, accounts, categories, months, payees, and transactions, with confirmed transaction creation.",
+    "developerName": "Alex Weber",
+    "category": "Productivity",
+    "capabilities": ["Read", "Write", "Personal Finance"],
+    "defaultPrompt": [
+      "Summarize my current YNAB budget.",
+      "Show my recent YNAB transactions.",
+      "Find categories that are overspent."
+    ],
+    "brandColor": "#2C7C7B"
+  }
+}

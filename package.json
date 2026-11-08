@@ -1,0 +1,14 @@
+{
+  "name": "chatgpt-ynab",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Codex plugin and MCP server for YNAB",
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/*.test.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT"
+}
